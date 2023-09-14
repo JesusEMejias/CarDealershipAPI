@@ -1,3 +1,5 @@
 from django.contrib import admin
+from CarDealershipAPI import models
 
-# Register your models here.
+
+admin.site.register(models.carProfile)
